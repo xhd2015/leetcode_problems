@@ -1,0 +1,4 @@
+
+# Why time consuming?
+I should have been familiar with 2D arrays,but I didn't just be like that in solving this problem
+S[len * k],S[i][j] should be S[i*k + j],not S[i*len + j],which has seriously consumed my time.

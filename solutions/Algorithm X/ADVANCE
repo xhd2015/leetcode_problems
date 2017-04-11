@@ -1,0 +1,11 @@
+
+
+remove***
+	the getFirstFather can do one more thing,let's call it travelBackToFather&travelForwardToSon,use a function:travel to do 
+	
+优化：
+	每一个点在整个求解过程中都具有以下不变性：  最左节点不变性， 最上节点不变性
+	如果增加两个域来存储这两个常量，则可以将 getFirst和getFirstFather的复杂度分别从O(M)、O(N)降到 O(1), M子列最大长度，N是子列数。
+	
+建议改进：
+	ExactCover.solve算是一个通用的算法了，对于每一个具体的结构，唯一的不同点在于它们的结果的保存，因此可以将save result 定义为virtual的函数
