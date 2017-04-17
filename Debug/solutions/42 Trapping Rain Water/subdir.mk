@@ -17,7 +17,7 @@ CPP_DEPS += \
 solutions/42\ Trapping\ Rain\ Water/mainTest.o: ../solutions/42\ Trapping\ Rain\ Water/mainTest.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cygwin C++ Compiler'
-	g++ -DCODE64 -I"D:\Pool\eclipse-workspace\leetcode\include" -I"C:\Users\13774\Desktop\bochs\devel\x2 system\include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"solutions/42 Trapping Rain Water/mainTest.d" -MT"solutions/42\ Trapping\ Rain\ Water/mainTest.d" -o "$@" "$<"
+	g++ -std=c++14 -DCODE64 -I"D:\Pool\eclipse-workspace\leetcode\include" -I"C:\Users\13774\Desktop\bochs\devel\x2 system\include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"solutions/42 Trapping Rain Water/mainTest.d" -MT"solutions/42\ Trapping\ Rain\ Water/mainTest.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

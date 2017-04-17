@@ -11,6 +11,7 @@ namespace x2{
 	std::string toString(int x);
 	std::string toString(char ch);
 	std::string toString(bool b);
+	std::string toString(const std::string & s);
 
 
 	std::string toString(int *arr,int sz);

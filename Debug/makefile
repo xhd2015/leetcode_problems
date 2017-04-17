@@ -8,13 +8,23 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include solutions/[HOJ\ 1005]\ Fast\ Food/subdir.mk
+-include solutions/[HOJ\ 1005]\ Fast\ Food\ DP/subdir.mk
+-include solutions/Longest\ Increasing\ Subarray/subdir.mk
 -include solutions/Algorithm\ X/subdir.mk
 -include solutions/6\ ZigZag\ Conversion/subdir.mk
+-include solutions/548\ Split\ Array\ With\ Equal\ Sum/subdir.mk
+-include solutions/547\ Friend\ Circles/subdir.mk
 -include solutions/546\ Remove\ Boxes\ DP/subdir.mk
+-include solutions/523\ Continuous\ Subarray\ Sum/subdir.mk
+-include solutions/522\ Longest\ Uncommon\ Subsequence\ II/subdir.mk
+-include solutions/517\ Super\ Washing\ Machines/subdir.mk
+-include solutions/44\ Wildcard\ Matching/subdir.mk
 -include solutions/42\ Trapping\ Rain\ Water/subdir.mk
 -include solutions/41\ Missing\ Positive/subdir.mk
 -include solutions/37\ Sudoku\ Solver/subdir.mk
+-include solutions/368\ Longest\ Divisiable\ Subset/subdir.mk
+-include solutions/354\ Russian\ Doll\ Envelops/subdir.mk
+-include solutions/10\ Regular\ Expression\ Matching/subdir.mk
 -include solutions/subdir.mk
 -include include/subdir.mk
 -include subdir.mk

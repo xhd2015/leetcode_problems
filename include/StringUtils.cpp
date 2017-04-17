@@ -24,6 +24,11 @@ namespace x2{
 	{
 		return b?"True":"False";
 	}
+
+	std::string toString(const std::string & s)
+	{
+		return s;
+	}
 	std::string toString(int *arr,int sz)
 	{
 		return std::accumulate(arr,arr+sz,std::string("["),sumVecString<int>)+"]";
